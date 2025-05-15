@@ -13,5 +13,5 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
   },
-  base: './frontend/public/' // For GitHub Pages, ensures relative asset paths
+  base: './frontend' // For GitHub Pages, ensures relative asset paths
 })
